@@ -1,0 +1,58 @@
+@import url("reset.css");
+
+*{
+	color: aqua;
+}
+
+p{
+	color: #df871c;
+}
+h3{
+	color: green;
+}
+.text-about{
+	color: green;
+}
+
+#honey-history{
+	color: blue;
+}
+ol{
+	color: brown;
+}
+li{
+	color: red;
+}
+.text-stage> p{
+	color: red;
+}
+.text-stage~ p{
+	color: green;
+}
+
+.type-text p{
+	color: blue;
+}
+
+.text.text{
+	color: orchid;
+}
+
+[href="#honey-history"]{
+	color: black;
+}
+
+[title~="Popular"]{
+	color: green;
+}
+div.social-link{
+	color: red;
+}
+
+
+
+
+
+
+
+
