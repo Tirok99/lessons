@@ -55,7 +55,7 @@ p{
 	font-size: 26px;
 	
 }
-p.main-history{
+.main-history{
 	color: blue;
 	font-size: 30px;
 	text-decoration: line-through;
