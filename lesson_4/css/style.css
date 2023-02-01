@@ -1,0 +1,142 @@
+/* ============= Reset ================== */
+@import url(reset.css);
+/* =============== Google Fonts ================ */
+@import url(https://fonts.googleapis.com/css?family=Pangolin:regular&display=swap);
+@import url(https://fonts.googleapis.com/css?family=Raleway:300,regular,500,700300italic,italic,500italic,700italic&display=swap);
+/* =================Unknown Fonts===================== */
+@font-face {
+	font-family: 'Maassslicer';
+	src: url('../fonts/MaassslicerItalic.woff2') format('woff2'),
+		 url('../fonts/MaassslicerItalic.woff') format('woff');
+	font-weight: normal;
+	font-style: italic;
+	font-display: swap;
+}
+@font-face {
+	font-family: 'v_CCBattleCry';
+	src: url('../fonts/v_CCBattleCry-Regular.woff2') format('woff2'),
+		 url('../fonts/v_CCBattleCry-Regular.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+@font-face {
+	font-family: 'K141';
+	src: url('../fonts/K.woff2') format('woff2'),
+		 url('../fonts/K.woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+	font-display: swap;
+}
+
+body{
+	font-family: "Sofia Sans Extra Condensed",  serif;
+}
+h1{
+	font-family: "Maassslicer", serif;
+	font-size: 36px;
+	font-style: italic;
+	font-weight: 700;
+	text-transform: uppercase;
+	text-shadow: 2px 1px 1px rgb(0, 128, 0,0.5), -1px -1px 1px rgb(50, 50, 153,0.6);
+	letter-spacing: 3px;
+	word-spacing: 4px;
+}
+h2{
+	font-family: "v_CCBattleCry",serif;
+	font-size: 26px;
+	font-style: italic;
+	letter-spacing: 5px;
+	text-align: center;
+	text-decoration: underline;
+	text-shadow: 1px 1.5px 1.3px rgb(209, 38, 38,0.5);
+}
+p{
+	font-size: 26px;
+	
+}
+p.main-history{
+	color: blue;
+	font-size: 30px;
+	text-decoration: line-through;
+	text-transform: uppercase;
+	white-space: nowrap;
+}
+.header{
+	text-indent: 20px;
+}
+
+.header-title {
+	text-align: center;
+}
+
+.header-text {
+	color: brown;
+	font-family: "Caveat", sans-serif;
+	font-size: 34px;
+	text-align: justify;
+	letter-spacing: 3px;
+	line-height: 1.625rem;
+}
+.main-title+p{
+	color: green;
+	word-spacing: 7px;
+}
+.main-text h2{
+	font-family: "Paleway",serif;
+
+}
+.main-text p{
+	font-family: "Pangolin", sans-serif;
+	text-transform: capitalize;
+}
+.main-text>p{
+	font-family: "Didact Gothic", serif;
+	font-size: 20px;
+	font-style: oblique;
+	font-weight: 700;
+	line-height: 1.75rem;
+	text-indent: 40px;
+	text-shadow: 0.5px 0.5px 1px rgb(89, 119, 219,0.75);
+}
+
+.block_about {
+	text-align: right;
+}
+
+.about-text p{
+	font-family: "Raleway",serif;
+	font-style: italic;
+	font-weight: 700;
+	text-align: center;
+	
+}
+.about-text.paragraph1{
+	color: red;
+	font-family: "Caveat", sans-serif;
+	text-align: left;
+	text-transform: capitalize;
+}
+
+.about-text .paragraph{
+	color: green;
+	font-family: "Maassslicer",serif;
+	font-weight: 400;
+	text-align: justify;
+	letter-spacing: 4px;
+}
+
+.footer-content {
+	font-family: "v_CCBattleCry",sans-serif;
+	font-size: 22px;
+	line-height: 2rem;
+	
+}
+.footer-paragraph~p{
+	color: blue;
+	font-size: 28px;
+	font-style: oblique;
+	text-decoration: overline;
+
+
+}
