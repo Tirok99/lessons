@@ -53,15 +53,8 @@ h2{
 }
 p{
 	font-size: 26px;
-	
 }
-.main-history{
-	color: blue;
-	font-size: 30px;
-	text-decoration: line-through;
-	text-transform: uppercase;
-	white-space: nowrap;
-}
+
 .header{
 	text-indent: 20px;
 }
@@ -98,6 +91,13 @@ p{
 	line-height: 1.75rem;
 	text-indent: 40px;
 	text-shadow: 0.5px 0.5px 1px rgb(89, 119, 219,0.75);
+}
+.main-history{
+	color: blue;
+	font-size: 30px;
+	text-decoration: line-through;
+	text-transform: uppercase;
+	white-space: nowrap;
 }
 
 .block_about {
