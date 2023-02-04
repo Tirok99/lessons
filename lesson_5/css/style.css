@@ -7,16 +7,17 @@ body{
 }
 p{
 	color: #6C757D;
-	font-weight: 300;
 	font-size: 14px;
+	font-weight: 300;
 	line-height: 25px;
-	padding-bottom: 25px;
 	max-width: 816px;
+	padding-bottom: 25px;
+	
 }
 .container {
-	padding: 0px 100px;
 	margin: 0;
 	max-width: 1440px;
+	padding: 0px 100px;
 }
 .block-header,
 .block-main,
@@ -48,10 +49,10 @@ li.last-li{
 	margin-bottom: 0px;
 }
 .main-title {
-	margin: 15px 0px 0px 0px;
 	font-size: 25px;
 	font-weight: 700;
 	line-height: 40px;
+	margin: 15px 0px 0px 0px;
 	max-width: 400px;
 }
 .main-text {
@@ -82,8 +83,7 @@ li.last-li{
 	display: inline-block;
 	max-width: 100%;
 }
-
-img.image2{
+.image2{
 	margin: 0px 0px 0px 25px;
 }
 
