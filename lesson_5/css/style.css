@@ -80,7 +80,10 @@ li.last-li{
 	max-width: 100%;
 }
 .image2{
-	margin: 0px 0px 0px 25px;
+	margin: 0px 0px 0px 30px;
+}
+.block-image{
+	font-size: 0;
 }
 
 
