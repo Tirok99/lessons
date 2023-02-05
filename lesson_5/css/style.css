@@ -10,15 +10,20 @@ p{
 	font-size: 14px;
 	font-weight: 300;
 	line-height: 25px;
-	max-width: 816px;
 	padding-bottom: 25px;
 	
 }
-.container {
-	margin: 0 auto;
+.wrapper {
 	padding: 0px 100px;
 }
 .block-header,
+.main-container,
+.content-container,
+.footer-container{
+	margin: 0 auto;
+	max-width: 816px;
+}
+
 .block-main,
 .content-block ,
 .block-footer{
