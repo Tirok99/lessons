@@ -3,7 +3,6 @@
 
 body{
 	font-family: "Poppins",serif;
-	
 }
 p{
 	color: #6C757D;
@@ -11,81 +10,91 @@ p{
 	font-weight: 300;
 	line-height: 25px;
 	margin-bottom: 25px;
-	
 }
 .wrapper {
-	padding: 0px 100px;
 	margin: 0 auto; 
-	max-widht: 1240px; 
+	max-width: 1240px; 
 }
-.block-header,
-.main-container,
-.content-container,
-.footer-container{
+.сontainer{
 	margin: 0 auto;
 	max-width: 816px;
 }
-
-.undermain-image,
-.content-block,
-.content-image,
-.block-footer{
-	margin: 80px 0px 0px 0px;
-} 
-
+.block-header{
+	margin-bottom: 15px;
+}
 .header-title {
-	max-width: 253px;
-	padding-top: 80px;
+	font-size: 12px;
+	font-weight: 300;
+	line-height: 20px;
+	max-width: 40%;
 }
 .header-title  li{
 	color: #6C757D;
 	display: inline-block;
 	font-size: 12px;
-	font-weight: 300;
-	margin: 0px 0px 5px 0px;
-}
-li.last-li{
+} 
+.last-li{
 	font-weight: 700;
-	margin-bottom: 0px;
+}
+.block-main{
+	margin-bottom: 80px;
 }
 .block-main h1 {
+	color: #212529;
 	font-size: 25px;
 	font-weight: 700;
-	margin: 15px 0px 0px 0px;
-	max-width: 400px;
+	line-height: 40px;
+	margin-bottom: 40px;
+	max-width: 25rem;
 }
-.main-text {
-	color: #212529;
-	font-weight: 300;
-	font-size: 14px;
-	margin: 40px 0px 0px 0px;
+.main-text{
+	margin-bottom: 80px;
 }
-.undermain-image {
-	display: inline-block;
-	max-width: 100%;
+.main-text p{
+	margin-bottom: 25px;
+}
+#last-paragraph{
+	margin-bottom: 0;
 }	
-.undermain-image img{
+.block-main img{
 	display: inline-block;
 	max-width: 100%;
 }
-
+.content-block{
+	margin-bottom: 80px;
+}
 .content-block h2 {
 	color: #212529;
 	font-size: 25px;
 	font-weight: 700;
+	line-height: 40px;
 	margin: 0px 0px 40px 0px;
-	max-width: 605px;
+	max-width: 75%;
 }
-.content-image {
-	display: inline-block;
-	max-width: 100%;
-}
-.image2{
-	margin: 0px 0px 0px 30px;
+/* .content-text{
+	
+} */
+.content-paragraph+p{
+	margin-bottom: 0;
 }
 .block-image{
 	font-size: 0;
+	margin-bottom: 80px;
 }
+.image-content {
+	display: inline-block;
+	max-width: 100%;
+}
+#image-boat{
+	margin-right: 30px;
+}
+.block-footer p{
+	margin-bottom: 0;
+}
+	
+	
+
+
 
 
 
