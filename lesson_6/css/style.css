@@ -85,12 +85,12 @@ h2{
 	margin-bottom: 100px;
 }
 
-.main-image{
+.full-image{
 	display: inline-block;
 	margin-bottom: 100px;
 }
-.main-image img{
-	max-width: 100%;
+.full-image img{
+	width: 100%;
 }
 #last_paragraph2{
 	margin-bottom: 100px;
