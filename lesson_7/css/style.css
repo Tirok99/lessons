@@ -47,11 +47,17 @@ main{
 	font-family: 'Inter';
 }
 .slider{
-	background:url(../img/speaker-removal.png) 75% 50% no-repeat, linear-gradient(115deg, rgba(244,247,255,1) 62%, rgba(228,234,251,1) 62%, rgba(222,229,247,1) 68%, rgba(210,220,251,1) 68%);
+	background:linear-gradient(115deg, rgba(244,247,255,1) 62%, rgba(228,234,251,1) 62%, rgba(222,229,247,1) 68%, rgba(210,220,251,1) 68%);
 	max-width: 100%;
 }
 .slider-block{
 	padding: 145px 0px 146px 0px;
+	display: inline-block;
+	vertical-align: middle;
+}
+.slider_container img{
+	vertical-align: middle;
+	padding-left: 120px;
 }
 .subtitle-slider {
 	color: #3056D3;
