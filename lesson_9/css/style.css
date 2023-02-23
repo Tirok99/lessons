@@ -326,7 +326,7 @@ body{
 .contact-items{
 	background: url(../img/elements/big-ellepse.webp)  100% 100% no-repeat, url(../img/elements/big-ellipce2.webp) 0 0 no-repeat,#20103f;
 	border-radius: 5px;
-	width: 1270;
+	width: 1270px;
 	height: 270px;
 	padding: 71px 70px;
 }
