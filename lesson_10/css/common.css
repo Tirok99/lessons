@@ -73,11 +73,11 @@
 	max-width: 393px;
 	
 }
-.item-content_color-text .item-content__text{
+.item-content__data_color-white{
 	color: #F8F9FA;
 }
 
-.item-content_color-text .item-content__data{
+.item-content__data_color-white{
 	color: #E5E5E5;
 }
 
