@@ -1,0 +1,107 @@
+@import url("reset.css");
+@import url("common.css");
+
+
+@import url(https://fonts.googleapis.com/css?family=Poppins:300,regular,500,600,700&display=swap);
+
+body {
+	font-family: Poppins, sans-serif;
+}
+
+[class *="__container"] {
+	margin: 0 auto;
+	max-width: 1270px;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+[class *="__title"]{
+	display: inline-block;
+}
+[class *="__menu"]{
+	display: inline-block;
+}
+[class *="__social"]{
+	display: inline-block;
+}
+.header__block{
+	padding: 37px 0px;
+}
+.block-header__logo{
+	display: inline-block;
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 25px;
+	color: #495057;
+}
+.block-footer__logo{
+	display: inline-block;
+}
+.block-footer__menu{
+	display: inline-block;
+}
+
+.block-footer__logo_color-white{
+	color: #F8F9FA;
+}
+
+.content-search{
+	display: inline-block;
+}
+
+.item__icon:not(:last-child){
+	margin-right: 25px;
+}
+
+.block-header__search{
+	display: inline-block;
+}
+.footer{
+	background-color:#212529 ;
+}
+.footer__block{
+	padding: 100px 0px;
+}
+
+.block-footer__info{
+	font-weight: 500;
+	font-size: 12px;
+	line-height: 20px;
+	color: rgba(248, 249, 250, 0.5);
+}
+
+.item-content__body_background1 {
+	background-image: url(../img/hallway.webp);
+	height: 450px;
+	width: 817px;
+
+}
+.item-content__body_background2{
+	background-image: url(../img/decor1.webp);
+	height: 450px;
+	width: 393px;
+
+}
+.item-content__body_background3{
+	background-image: url(../img/decor-chair.webp);
+	height: 450px;
+	width: 393px;
+}
+.item-content__body_background4{
+	background-image: url(../img/decor-sofa.webp);
+	height: 450px;
+	width: 393px;
+}
+.item-content__body_background5{
+	background-image: url(../img/decor-chair2.webp);
+	height: 450px;
+	width: 393px;
+}
+
+
+
+
+
+
+
+
