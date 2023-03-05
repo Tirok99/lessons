@@ -10,6 +10,12 @@ body {
 	line-height: 24px;
 	font-weight: 500;
 }
+.header{
+	position: sticky;
+	top: 0;
+	left: 0;
+	background-color: #fff;
+}
 .wrapper {
 	overflow: clip;
 	min-height: 100%;
