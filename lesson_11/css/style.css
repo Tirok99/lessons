@@ -80,6 +80,7 @@ body {
 	font-size: 18px;
 	display: inline-block;
 	padding: 24px 0px;
+	position: relative;
 }
 .menu__link:hover {
 	color: #3056D3;
@@ -97,6 +98,27 @@ body {
 .action__item:not(:last-child) {
 	margin-right: 10px;
 }
+.action__link{
+	position: relative;
+}
+.action__link span{
+	position: absolute;
+	background-color: #3056D3;
+	border-radius: 50%;
+	color: #ffffff;
+	font-size: 11px;
+	line-height: 13px;
+	font-weight: normal;
+	width: 16px;
+	height: 16px;
+	top: -9px;
+	right: -5px;
+	text-align: center;
+	padding-top: 2px;
+
+}
+
+
 
 .menu__sub-menu {
 	position: absolute;
