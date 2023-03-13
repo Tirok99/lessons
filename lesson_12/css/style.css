@@ -490,8 +490,8 @@ p {
 }
 .car__wheels{
 	position: absolute;
-	top: 35%;
-	left:15%;
+	top: 92px;
+	left: 222px;
 	z-index: 5;
 	
 }
