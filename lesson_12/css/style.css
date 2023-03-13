@@ -488,10 +488,17 @@ p {
 	background: linear-gradient(to right, rgb(255,48,25) 83%,rgb(255,48,25) 83%,rgb(255,48,25) 93%,rgb(207,4,4) 100%,rgb(207,4,4) 100%);
 
 }
-.car__wheels{
+.car__wheels-right{
 	position: absolute;
 	top: 92px;
 	left: 222px;
+	z-index: 5;
+	
+}
+.car__wheels-left{
+	position: absolute;
+	top: 92px;
+	left: 758px;
 	z-index: 5;
 	
 }
