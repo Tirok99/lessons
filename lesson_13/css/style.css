@@ -83,8 +83,6 @@ p {
 	height: 150px;
 	background-color: #a31f1f;
 	padding: 65px 40px;
-	opacity: 1;
-	visibility: vissible;
 }
 .item-anim__content{
 		width: 180px;
@@ -169,10 +167,9 @@ p {
 	color: #000;
 	background-color: #77608d;
 	border-radius: 70% 40% 70% 65%;
-	
 	transition-duration: 2s;
 	transition-property: border-radius, background-color, width;
-	transition-delay: 1s, 1.5s 1.3s;
+	transition-delay: 1s, 1.5s, 1.3s;
 }
 /* ===================================================== */
 .item__content_ttf-ease:hover{
