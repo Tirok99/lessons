@@ -100,6 +100,7 @@ body {
 .picture__item {
 	border-radius: 3%;
 	display: flex;
+	
 }
 .picture__link {
 	display: inline-block;

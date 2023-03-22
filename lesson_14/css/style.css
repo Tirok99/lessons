@@ -79,8 +79,8 @@ h1 {
 	display: inline-flex;
 }
 /* ======================================== */
-.content__items_no-wrap{
-	flex-wrap: no-wrap;
+.content__items_nowrap{
+	flex-wrap: nowrap;
 }
 .content__items_wrap{
 	flex-wrap: wrap;
