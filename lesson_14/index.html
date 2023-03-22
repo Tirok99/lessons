@@ -1,0 +1,909 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="css/style.css">
+	<title>Lesson 14</title>
+</head>
+
+<body>
+	<!-- FLEX-container -->
+	<div class="wrapper">
+		<!-- FLEX-element -->
+		<header></header>
+		<!-- FLEX-element -->
+		<main class="main">
+			<div class="main__container">
+				<div class="main__content content">
+					<h1>Home task 'FLEXBOX'</h1>
+					<div class="content__block">
+						<div class="content__items content__items_flex">
+							<div class="content__item item">
+								<div class=" item__content">
+									<h3 class="item__title">Element #1</h3>
+									<p class="item__text">Some text for hometask</p>
+								</div>
+							</div>
+							<div class="content__item item">
+								<div class=" item__content">
+									<h3 class="item__title">Element #2</h3>
+									<p class="item__text">A little more text to visualize an example.</p>
+								</div>
+							</div>
+							<div class="content__item item">
+								<div class="item__content">
+									<h3 class="item__title">Element #3</h3>
+									<img src="img/tiger.webp" alt="tiger">
+									<p class="item__text">Some text for hometask</p>
+								</div>
+							</div>
+							<div class="content__item item">
+								<div class="item__content">
+									<h3 class="item__title">Element #4</h3>
+								</div>
+							</div>
+						</div>
+						<p class="content__text">1. Display: flex</p>
+						<div class="content__items content__items_inline-flex">
+							<div class="content__item item">
+								<div class=" item__content">
+									<h3 class="item__title">Element #1</h3>
+									<p class="item__text">Some text for hometask</p>
+								</div>
+							</div>
+							<div class="content__item item">
+								<div class=" item__content">
+									<h3 class="item__title">Element #2</h3>
+									<p class="item__text">A little more text to visualize an example.</p>
+								</div>
+							</div>
+							<div class="content__item item">
+								<div class="item__content">
+									<h3 class="item__title">Element #3</h3>
+									<img src="img/tiger.webp" alt="tiger">
+									<p class="item__text">Some text for hometask</p>
+								</div>
+							</div>
+							<div class="content__item item">
+								<div class="item__content">
+									<h3 class="item__title">Element #4</h3>
+								</div>
+							</div>
+						</div>
+						<p class="content__text">1.1 Display: inline-flex</p>
+					</div>
+					<div class="content__block">
+						<div class="content__items content__items_no-wrap">
+							<div class="content__item item">
+								<div class=" item__content">
+									<h3 class="item__title">Element #1</h3>
+									<p class="item__text">Some text for hometask</p>
+								</div>
+							</div>
+							<div class="content__item item">
+								<div class=" item__content">
+									<h3 class="item__title">Element #2</h3>
+									<p class="item__text">A little more text to visualize an example.</p>
+								</div>
+							</div>
+							<div class="content__item item">
+								<div class="item__content">
+									<h3 class="item__title">Element #3</h3>
+									<img src="img/tiger.webp" alt="tiger">
+									<p class="item__text">Some text for hometask</p>
+								</div>
+							</div>
+							<div class="content__item item">
+								<div class="item__content">
+									<h3 class="item__title">Element #4</h3>
+								</div>
+							</div>
+						</div>
+						<p class="content__text">2.1 Flex-wrap: no-wrap</p>
+						<div class="content__items content__items_wrap">
+							<div class="content__item item">
+								<div class=" item__content">
+									<h3 class="item__title">Element #1</h3>
+									<p class="item__text">Some text for hometask</p>
+								</div>
+							</div>
+							<div class="content__item item">
+								<div class=" item__content">
+									<h3 class="item__title">Element #2</h3>
+									<p class="item__text">A little more text to visualize an example.</p>
+								</div>
+							</div>
+							<div class="content__item item">
+								<div class="item__content">
+									<h3 class="item__title">Element #3</h3>
+									<img src="img/tiger.webp" alt="tiger">
+									<p class="item__text">Some text for hometask</p>
+								</div>
+							</div>
+							<div class="content__item item">
+								<div class="item__content">
+									<h3 class="item__title">Element #4</h3>
+								</div>
+							</div>
+						</div>
+						<p class="content__text">2.2 Flex-wrap: wrap</p>
+						<div class="content__items content__items_wrap-reverse">
+							<div class="content__item item">
+								<div class=" item__content">
+									<h3 class="item__title">Element #1</h3>
+									<p class="item__text">Some text for hometask</p>
+								</div>
+							</div>
+							<div class="content__item item">
+								<div class=" item__content">
+									<h3 class="item__title">Element #2</h3>
+									<p class="item__text">A little more text to visualize an example.</p>
+								</div>
+							</div>
+							<div class="content__item item">
+								<div class="item__content">
+									<h3 class="item__title">Element #3</h3>
+									<img src="img/tiger.webp" alt="tiger">
+									<p class="item__text">Some text for hometask</p>
+								</div>
+							</div>
+							<div class="content__item item">
+								<div class="item__content">
+									<h3 class="item__title">Element #4</h3>
+								</div>
+							</div>
+						</div>
+						<p class="content__text">2.3 Flex-wrap: wrap-reverse</p>
+					</div>
+					<div class="content__block">
+						<div class="content__items content__items_justify-start">
+							<div class="content__item item">
+								<div class=" item__content">
+									<h3 class="item__title">Element #1</h3>
+									<p class="item__text">Some text for hometask</p>
+								</div>
+							</div>
+							<div class="content__item item">
+								<div class=" item__content">
+									<h3 class="item__title">Element #2</h3>
+									<p class="item__text">A little more text to visualize an example.</p>
+								</div>
+							</div>
+							<div class="content__item item">
+								<div class="item__content">
+									<h3 class="item__title">Element #3</h3>
+									<img src="img/tiger.webp" alt="tiger">
+									<p class="item__text">Some text for hometask</p>
+								</div>
+							</div>
+							<div class="content__item item">
+								<div class="item__content">
+									<h3 class="item__title">Element #4</h3>
+								</div>
+							</div>
+						</div>
+						<p class="content__text">3.1 Justify-content: flex-start</p>
+						<div class="content__items content__items_justify-end">
+							<div class="content__item item">
+								<div class=" item__content">
+									<h3 class="item__title">Element #1</h3>
+									<p class="item__text">Some text for hometask</p>
+								</div>
+							</div>
+							<div class="content__item item">
+								<div class=" item__content">
+									<h3 class="item__title">Element #2</h3>
+									<p class="item__text">A little more text to visualize an example.</p>
+								</div>
+							</div>
+							<div class="content__item item">
+								<div class="item__content">
+									<h3 class="item__title">Element #3</h3>
+									<img src="img/tiger.webp" alt="tiger">
+									<p class="item__text">Some text for hometask</p>
+								</div>
+							</div>
+							<div class="content__item item">
+								<div class="item__content">
+									<h3 class="item__title">Element #4</h3>
+								</div>
+							</div>
+						</div>
+						<p class="content__text">3.2 Justify-content: flex-end</p>
+						<div class="content__items content__items_justify-center">
+							<div class="content__item item">
+								<div class=" item__content">
+									<h3 class="item__title">Element #1</h3>
+									<p class="item__text">Some text for hometask</p>
+								</div>
+							</div>
+							<div class="content__item item">
+								<div class=" item__content">
+									<h3 class="item__title">Element #2</h3>
+									<p class="item__text">A little more text to visualize an example.</p>
+								</div>
+							</div>
+							<div class="content__item item">
+								<div class="item__content">
+									<h3 class="item__title">Element #3</h3>
+									<img src="img/tiger.webp" alt="tiger">
+									<p class="item__text">Some text for hometask</p>
+								</div>
+							</div>
+							<div class="content__item item">
+								<div class="item__content">
+									<h3 class="item__title">Element #4</h3>
+								</div>
+							</div>
+						</div>
+						<p class="content__text">3.3 Justify-content: center</p>
+					</div>
+					<div class="content__block">
+						<div class="content__items content__items_justify-between">
+							<div class="content__item item">
+								<div class=" item__content">
+									<h3 class="item__title">Element #1</h3>
+									<p class="item__text">Some text for hometask</p>
+								</div>
+							</div>
+							<div class="content__item item">
+								<div class=" item__content">
+									<h3 class="item__title">Element #2</h3>
+									<p class="item__text">A little more text to visualize an example.</p>
+								</div>
+							</div>
+							<div class="content__item item">
+								<div class="item__content">
+									<h3 class="item__title">Element #3</h3>
+									<img src="img/tiger.webp" alt="tiger">
+									<p class="item__text">Some text for hometask</p>
+								</div>
+							</div>
+							<div class="content__item item">
+								<div class="item__content">
+									<h3 class="item__title">Element #4</h3>
+								</div>
+							</div>
+						</div>
+						<p class="content__text">3.4 Justify-content: space-between</p>
+						<div class="content__items content__items_justify-around">
+							<div class="content__item item">
+								<div class=" item__content">
+									<h3 class="item__title">Element #1</h3>
+									<p class="item__text">Some text for hometask</p>
+								</div>
+							</div>
+							<div class="content__item item">
+								<div class=" item__content">
+									<h3 class="item__title">Element #2</h3>
+									<p class="item__text">A little more text to visualize an example.</p>
+								</div>
+							</div>
+							<div class="content__item item">
+								<div class="item__content">
+									<h3 class="item__title">Element #3</h3>
+									<img src="img/tiger.webp" alt="tiger">
+									<p class="item__text">Some text for hometask</p>
+								</div>
+							</div>
+							<div class="content__item item">
+								<div class="item__content">
+									<h3 class="item__title">Element #4</h3>
+								</div>
+							</div>
+						</div>
+						<p class="content__text">3.5 Justify-content: space-around</p>
+						<div class="content__items content__items_justify-evenly">
+							<div class="content__item item">
+								<div class=" item__content">
+									<h3 class="item__title">Element #1</h3>
+									<p class="item__text">Some text for hometask</p>
+								</div>
+							</div>
+							<div class="content__item item">
+								<div class=" item__content">
+									<h3 class="item__title">Element #2</h3>
+									<p class="item__text">A little more text to visualize an example.</p>
+								</div>
+							</div>
+							<div class="content__item item">
+								<div class="item__content">
+									<h3 class="item__title">Element #3</h3>
+									<img src="img/tiger.webp" alt="tiger">
+									<p class="item__text">Some text for hometask</p>
+								</div>
+							</div>
+							<div class="content__item item">
+								<div class="item__content">
+									<h3 class="item__title">Element #4</h3>
+								</div>
+							</div>
+						</div>
+						<p class="content__text">3.6 Justify-content: space-evenly</p>
+					</div>
+					<div class="content__block">
+						<div class="content__items content__items_align-stretch">
+							<div class="content__item item">
+								<div class=" item__content">
+									<h3 class="item__title">Element #1</h3>
+									<p class="item__text">Some text for hometask</p>
+								</div>
+							</div>
+							<div class="content__item item">
+								<div class=" item__content">
+									<h3 class="item__title">Element #2</h3>
+									<p class="item__text">A little more text to visualize an example.</p>
+								</div>
+							</div>
+							<div class="content__item item">
+								<div class="item__content">
+									<h3 class="item__title">Element #3</h3>
+									<img src="img/tiger.webp" alt="tiger">
+									<p class="item__text">Some text for hometask</p>
+								</div>
+							</div>
+							<div class="content__item item">
+								<div class="item__content">
+									<h3 class="item__title">Element #4</h3>
+								</div>
+							</div>
+						</div>
+						<p class="content__text">4.1 Align-items: stretch</p>
+						<div class="content__items content__items_align-start">
+							<div class="content__item item">
+								<div class=" item__content">
+									<h3 class="item__title">Element #1</h3>
+									<p class="item__text">Some text for hometask</p>
+								</div>
+							</div>
+							<div class="content__item item">
+								<div class=" item__content">
+									<h3 class="item__title">Element #2</h3>
+									<p class="item__text">A little more text to visualize an example.</p>
+								</div>
+							</div>
+							<div class="content__item item">
+								<div class="item__content">
+									<h3 class="item__title">Element #3</h3>
+									<img src="img/tiger.webp" alt="tiger">
+									<p class="item__text">Some text for hometask</p>
+								</div>
+							</div>
+							<div class="content__item item">
+								<div class="item__content">
+									<h3 class="item__title">Element #4</h3>
+								</div>
+							</div>
+						</div>
+						<p class="content__text">4.2 Align-items: flex-start</p>
+						<div class="content__items content__items_align-end">
+							<div class="content__item item">
+								<div class=" item__content">
+									<h3 class="item__title">Element #1</h3>
+									<p class="item__text">Some text for hometask</p>
+								</div>
+							</div>
+							<div class="content__item item">
+								<div class=" item__content">
+									<h3 class="item__title">Element #2</h3>
+									<p class="item__text">A little more text to visualize an example.</p>
+								</div>
+							</div>
+							<div class="content__item item">
+								<div class="item__content">
+									<h3 class="item__title">Element #3</h3>
+									<img src="img/tiger.webp" alt="tiger">
+									<p class="item__text">Some text for hometask</p>
+								</div>
+							</div>
+							<div class="content__item item">
+								<div class="item__content">
+									<h3 class="item__title">Element #4</h3>
+								</div>
+							</div>
+						</div>
+						<p class="content__text">4.3 Align-items: flex-end</p>
+						<div class="content__items content__items_align-center">
+							<div class="content__item item">
+								<div class=" item__content">
+									<h3 class="item__title">Element #1</h3>
+									<p class="item__text">Some text for hometask</p>
+								</div>
+							</div>
+							<div class="content__item item">
+								<div class=" item__content">
+									<h3 class="item__title">Element #2</h3>
+									<p class="item__text">A little more text to visualize an example.</p>
+								</div>
+							</div>
+							<div class="content__item item">
+								<div class="item__content">
+									<h3 class="item__title">Element #3</h3>
+									<img src="img/tiger.webp" alt="tiger">
+									<p class="item__text">Some text for hometask</p>
+								</div>
+							</div>
+							<div class="content__item item">
+								<div class="item__content">
+									<h3 class="item__title">Element #4</h3>
+								</div>
+							</div>
+						</div>
+						<p class="content__text">4.4 Align-items: center</p>
+					</div>
+					<div class="content__block">
+						<div class="content__items content__items_row">
+							<div class="content__item item">
+								<div class=" item__content">
+									<h3 class="item__title">Element #1</h3>
+									<p class="item__text">Some text for hometask</p>
+								</div>
+							</div>
+							<div class="content__item item">
+								<div class=" item__content">
+									<h3 class="item__title">Element #2</h3>
+									<p class="item__text">A little more text to visualize an example.</p>
+								</div>
+							</div>
+							<div class="content__item item">
+								<div class="item__content">
+									<h3 class="item__title">Element #3</h3>
+									<img src="img/tiger.webp" alt="tiger">
+									<p class="item__text">Some text for hometask</p>
+								</div>
+							</div>
+							<div class="content__item item">
+								<div class="item__content">
+									<h3 class="item__title">Element #4</h3>
+								</div>
+							</div>
+						</div>
+						<p class="content__text">5.1 Flex-direction: row</p>
+						<div class="content__items content__items_row-reverse">
+							<div class="content__item item">
+								<div class=" item__content">
+									<h3 class="item__title">Element #1</h3>
+									<p class="item__text">Some text for hometask</p>
+								</div>
+							</div>
+							<div class="content__item item">
+								<div class=" item__content">
+									<h3 class="item__title">Element #2</h3>
+									<p class="item__text">A little more text to visualize an example.</p>
+								</div>
+							</div>
+							<div class="content__item item">
+								<div class="item__content">
+									<h3 class="item__title">Element #3</h3>
+									<img src="img/tiger.webp" alt="tiger">
+									<p class="item__text">Some text for hometask</p>
+								</div>
+							</div>
+							<div class="content__item item">
+								<div class="item__content">
+									<h3 class="item__title">Element #4</h3>
+								</div>
+							</div>
+						</div>
+						<p class="content__text">5.2 Flex-direction: row-reverse</p>
+						<div class="content__items content__items_column">
+							<div class="content__item item">
+								<div class=" item__content">
+									<h3 class="item__title">Element #1</h3>
+									<p class="item__text">Some text for hometask</p>
+								</div>
+							</div>
+							<div class="content__item item">
+								<div class=" item__content">
+									<h3 class="item__title">Element #2</h3>
+									<p class="item__text">A little more text to visualize an example.</p>
+								</div>
+							</div>
+							<div class="content__item item">
+								<div class="item__content">
+									<h3 class="item__title">Element #3</h3>
+									<img src="img/tiger.webp" alt="tiger">
+									<p class="item__text">Some text for hometask</p>
+								</div>
+							</div>
+							<div class="content__item item">
+								<div class="item__content">
+									<h3 class="item__title">Element #4/h3>
+								</div>
+							</div>
+						</div>
+						<p class="content__text">5.3 Flex-direction: column</p>
+						<div class="content__items content__items_column-reverse">
+							<div class="content__item item">
+								<div class=" item__content">
+									<h3 class="item__title">Element #1</h3>
+									<p class="item__text">Some text for hometask</p>
+								</div>
+							</div>
+							<div class="content__item item">
+								<div class=" item__content">
+									<h3 class="item__title">Element #2</h3>
+									<p class="item__text">A little more text to visualize an example.</p>
+								</div>
+							</div>
+							<div class="content__item item">
+								<div class="item__content">
+									<h3 class="item__title">Element #3</h3>
+									<img src="img/tiger.webp" alt="tiger">
+									<p class="item__text">Some text for hometask</p>
+								</div>
+							</div>
+							<div class="content__item item">
+								<div class="item__content">
+									<h3 class="item__title">Element #4</h3>
+								</div>
+							</div>
+						</div>
+						<p class="content__text">5.4 Flex-direction: column-reverse</p>
+					</div>
+					<div class="content__block">
+						<div class="content__items content__items_gap">
+							<div class="content__item item">
+								<div class=" item__content">
+									<h3 class="item__title">Element #1</h3>
+									<p class="item__text">Some text for hometask</p>
+								</div>
+							</div>
+							<div class="content__item item">
+								<div class=" item__content">
+									<h3 class="item__title">Element #2</h3>
+									<p class="item__text">A little more text to visualize an example.</p>
+								</div>
+							</div>
+							<div class="content__item item">
+								<div class="item__content">
+									<h3 class="item__title">Element #3</h3>
+									<img src="img/tiger.webp" alt="tiger">
+									<p class="item__text">Some text for hometask</p>
+								</div>
+							</div>
+							<div class="content__item item">
+								<div class="item__content">
+									<h3 class="item__title">Element #4</h3>
+								</div>
+							</div>
+							<div class="content__item item">
+								<div class="item__content">
+									<h3 class="item__title">Element #5</h3>
+								</div>
+							</div>
+							<div class="content__item item">
+								<div class="item__content">
+									<h3 class="item__title">Element #6</h3>
+								</div>
+							</div>
+							<div class="content__item item">
+								<div class="item__content">
+									<h3 class="item__title">Element #7</h3>
+								</div>
+							</div>
+							<div class="content__item item">
+								<div class="item__content">
+									<h3 class="item__title">Element #8</h3>
+								</div>
+							</div>
+						</div>
+						<p class="content__text">6.1 Gap</p>
+						<div class="content__items content__items_column-gap">
+							<div class="content__item item">
+								<div class=" item__content">Element #1
+									<p class="item__text">Some text for hometask</p>
+								</div>
+							</div>
+							<div class="content__item item">
+								<div class=" item__content">
+									<h3 class="item__title">Element #2</h3>
+									<p class="item__text">A little more text to visualize an example.</p>
+								</div>
+							</div>
+							<div class="content__item item">
+								<div class="item__content">
+									<h3 class="item__title">Element #3</h3>
+									<img src="img/tiger.webp" alt="tiger">
+									<p class="item__text">Some text for hometask</p>
+								</div>
+							</div>
+							<div class="content__item item">
+								<div class="item__content">
+									<h3 class="item__title">Element #4</h3>
+								</div>
+							</div>
+						</div>
+						<p class="content__text">6.2 Column-gap</p>
+						<div class="content__items content__items_row-gap">
+							<div class="content__item item">
+								<div class=" item__content">
+									<h3 class="item__title">Element #1</h3>
+									<p class="item__text">Some text for hometask</p>
+								</div>
+							</div>
+							<div class="content__item item">
+								<div class=" item__content">
+									<h3 class="item__title">Element #2</h3>
+									<p class="item__text">A little more text to visualize an example.</p>
+								</div>
+							</div>
+							<div class="content__item item">
+								<div class="item__content">
+									<h3 class="item__title">Element #3</h3>
+									<img src="img/tiger.webp" alt="tiger">
+									<p class="item__text">Some text for hometask</p>
+								</div>
+							</div>
+							<div class="content__item item">
+								<div class="item__content">
+									<h3 class="item__title">Element #4</h3>
+								</div>
+							</div>
+							<div class="content__item item">
+								<div class="item__content">
+									<h3 class="item__title">Element #5</h3>
+								</div>
+							</div>
+							<div class="content__item item">
+								<div class="item__content">
+									<h3 class="item__title">Element #6</h3>
+								</div>
+							</div>
+							<div class="content__item item">
+								<div class="item__content">
+									<h3 class="item__title">Element #7</h3>
+								</div>
+							</div>
+							<div class="content__item item">
+								<div class="item__content">
+									<h3 class="item__title">Element #8</h3>
+								</div>
+							</div>
+						</div>
+						<p class="content__text">6.3 Row-gap</p>
+					</div>
+					<div class="content__block">
+						<div class="content__items content__items_align-self">
+							<div class="content__item item item_self">
+								<div class=" item__content item__content_self">
+									<h3 class="item__title">Element #1</h3>
+									<p class="item__text">Some text for hometask</p>
+								</div>
+							</div>
+							<div class="content__item item item_self">
+								<div class=" item__content item__content_self">
+									<h3 class="item__title">Element #2</h3>
+									<p class="item__text">A little more text to visualize an example.</p>
+								</div>
+							</div>
+							<div class="content__item item item_self">
+								<div class="item__content item__content_self">
+									<h3 class="item__title">Element #3</h3>
+									<img src="img/tiger.webp" alt="tiger">
+									<p class="item__text">Some text for hometask</p>
+								</div>
+							</div>
+							<div class="content__item item item_self">
+								<div class="item__content item__content_self">
+									<h3 class="item__title">Element #4</h3>
+								</div>
+							</div>
+							<div class="content__item item item_self">
+								<div class="item__content item__content_self">
+									<h3 class="item__title">Element #5</h3>
+								</div>
+							</div>
+							<div class="content__item item item_self">
+								<div class="item__content item__content_self">
+									<h3 class="item__title">Element #6</h3>
+								</div>
+							</div>
+							<div class="content__item item item_self">
+								<div class="item__content item__content_self">
+									<h3 class="item__title">Element #7</h3>
+								</div>
+							</div>
+						</div>
+						<p class="content__text">7.1 Align-self</p>
+						<div class="content__items content__items_self-column">
+							<div class="content__item item item_self">
+								<div class=" item__content item__content_self-column">
+									<h3 class="item__title">Element #1</h3>
+									<p class="item__text">Some text for hometask</p>
+								</div>
+							</div>
+							<div class="content__item item item_self-column">
+								<div class=" item__content item__content_self-column">
+									<h3 class="item__title">Element #2</h3>
+									<p class="item__text">A little more text to visualize an example.</p>
+								</div>
+							</div>
+							<div class="content__item item item_self-column">
+								<div class="item__content item__content_self-column">
+									<h3 class="item__title">Element #3</h3>
+									<img src="img/tiger.webp" alt="tiger">
+									<p class="item__text">Some text for hometask</p>
+								</div>
+							</div>
+							<div class="content__item item item_self-column">
+								<div class="item__content item__content_self-column">
+									<h3 class="item__title">Element #4</h3>
+								</div>
+							</div>
+							<div class="content__item item item_self-column">
+								<div class="item__content item__content_self-column">
+									<h3 class="item__title">Element #5</h3>
+								</div>
+							</div>
+							<div class="content__item item item_self-column">
+								<div class="item__content item__content_self-column">
+									<h3 class="item__title">Element #6</h3>
+								</div>
+							</div>
+							<div class="content__item item item_self-column">
+								<div class="item__content item__content_self-column">
+									<h3 class="item__title">Element #7</h3>
+								</div>
+							</div>
+						</div>
+						<p class="content__text">7.2 Align-self / column</p>
+					</div>
+					<div class="content__block">
+						<div class="content__items content__items_grow">
+							<div class="content__item item item_grow">
+								<div class=" item__content item__content_grow">
+									<h3 class="item__title">Element #1</h3>
+									<p class="item__text">Some text for hometask</p>
+								</div>
+							</div>
+							<div class="content__item item item_grow">
+								<div class=" item__content item__content_grow">
+									<h3 class="item__title">Element #2</h3>
+									<p class="item__text">A little more text to visualize an example.</p>
+								</div>
+							</div>
+							<div class="content__item item item_grow">
+								<div class="item__content item__content_grow">
+									<h3 class="item__title">Element #3</h3>
+									<img src="img/tiger.webp" alt="tiger">
+									<p class="item__text">Some text for hometask</p>
+								</div>
+							</div>
+							<div class="content__item item item_grow">
+								<div class="item__content item__content_grow">
+									<h3 class="item__title">Element #4</h3>
+								</div>
+							</div>
+						</div>
+						<p class="content__text">8.1 Flex-grow</p>
+						<div class="content__items content__items_basis">
+							<div class="content__item item item item_basis">
+								<div class=" item__content item__content_basis">
+									<h3 class="item__title">Element #1</h3>
+									<p class="item__text">Some text for hometask</p>
+								</div>
+							</div>
+							<div class="content__item item item item_basis">
+								<div class=" item__content item__content_basis">
+									<h3 class="item__title">Element #2</h3>
+									<p class="item__text">A little more text to visualize an example.</p>
+								</div>
+							</div>
+							<div class="content__item item item item_basis">
+								<div class="item__content item__content_basis">
+									<h3 class="item__title">Element #3</h3>
+									<img src="img/tiger.webp" alt="tiger">
+									<p class="item__text">Some text for hometask</p>
+								</div>
+							</div>
+							<div class="content__item item item_basis">
+								<div class="item__content item__content_basis">
+									<h3 class="item__title">Element #4</h3>
+								</div>
+							</div>
+						</div>
+						<p class="content__text">8.2 Flex-basis</p>
+						<div class="content__items content__items_shrink">
+							<div class="content__item item item_shrink">
+								<div class=" item__content item__content_shrink">
+									<h3 class="item__title">Element #1</h3>
+									<p class="item__text">Some text for hometask</p>
+								</div>
+							</div>
+							<div class="content__item item item_shrink">
+								<div class=" item__content item__content_shrink">
+									<h3 class="item__title">Element #2</h3>
+									<p class="item__text">A little more text to visualize an example.</p>
+								</div>
+							</div>
+							<div class="content__item item item_shrink">
+								<div class="item__content item__content_shrink">
+									<h3 class="item__title">Element #3</h3>
+									<img src="img/tiger.webp" alt="tiger">
+									<p class="item__text">Some text for hometask</p>
+								</div>
+							</div>
+							<div class="content__item item item_shrink">
+								<div class="item__content item__content_shrink">
+									<h3 class="item__title">Element #4</h3>
+								</div>
+							</div>
+						</div>
+						<p class="content__text">8.3 Flex-shrink</p>
+						<div class="content__items content__items_flex-universal">
+							<div class="content__item item item_flex-universal">
+								<div class=" item__content item__content_flex-universal">
+									<h3 class="item__title">Element #1</h3>
+									<p class="item__text">Some text for hometask</p>
+								</div>
+							</div>
+							<div class="content__item item item_flex-universal">
+								<div class=" item__content item__content_flex-universal">
+									<h3 class="item__title">Element #2</h3>
+									<p class="item__text">A little more text to visualize an example.</p>
+								</div>
+							</div>
+							<div class="content__item item item_flex-universal">
+								<div class="item__content item__content_flex-universal">
+									<h3 class="item__title">Element #3</h3>
+									<img src="img/tiger.webp" alt="tiger">
+									<p class="item__text">Some text for hometask</p>
+								</div>
+							</div>
+							<div class="content__item item item_flex-universal">
+								<div class="item__content item__content_flex-universal">
+									<h3 class="item__title">Element #4</h3>
+								</div>
+							</div>
+						</div>
+						<p class="content__text">8.4 Flex universal</p>
+					</div>
+					<div class="content__block">
+						<div class="content__items content__items_grow">
+							<div class="content__item item item_grow">
+								<div class=" item__content item__content_grow">
+									<h3 class="item__title">Element #1</h3>
+									<p class="item__text">Some text for hometask</p>
+								</div>
+							</div>
+							<div class="content__item item item_grow">
+								<div class=" item__content item__content_grow">
+									<h3 class="item__title">Element #2</h3>
+									<p class="item__text">A little more text to visualize an example.</p>
+								</div>
+							</div>
+							<div class="content__item item item_grow">
+								<div class="item__content item__content_grow">
+									<h3 class="item__title">Element #3</h3>
+									<img src="img/tiger.webp" alt="tiger">
+									<p class="item__text">Some text for hometask</p>
+								</div>
+							</div>
+							<div class="content__item item item_grow">
+								<div class="item__content item__content_grow">
+									<h3 class="item__title">Element #4</h3>
+								</div>
+							</div>
+						</div>
+						<p class="content__text">9.1 Order</p>
+					</div>
+					<div class="content__block">
+						<div class="content__items content__items_button">
+							<div class="content__item item item_button">
+								<a class="content__link" href=" http://127.0.0.1:5500//vence.html" target="_blank">Push to part 2</a>
+							</div>
+						</div>
+					</div>
+					<!-- <a class="content__link" href=" https://tirok99.github.io/lessons/lesson_14/vence.html" target="_blank">Push to part 2</a> -->
+				</div>
+			</div>
+		</main>
+		<!-- FLEX-element -->
+		<footer></footer>
+	</div>
+</body>
+
+</html>
