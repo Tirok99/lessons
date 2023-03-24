@@ -1,0 +1,254 @@
+@import url("reset.css");
+@import url("common.css");
+
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,500,600,700&display=swap");
+
+body {
+	font-family: "Poppins", sans-serif;
+	font-size: 12px;
+	color: #212529;
+}
+h3{
+	font-weight: 600;
+	font-size: 24px;
+	line-height: 1.4;
+	color: #333333;
+}
+.wrapper {
+	overflow: clip;
+	min-height: 100%;
+
+	display: flex;
+	flex-direction: column;
+}
+.wrapper > main {
+	flex-grow: 1;
+}
+[class*="__container"] {
+	max-width: 1230px;
+	margin: 0 auto;
+	padding-left: 15px;
+	padding-right: 15px;
+}
+/* =============================================== */
+.main{
+	padding-top: 40px;
+}
+.main__block-title{
+	margin-bottom: 40px;
+	
+}
+.title-block{
+	display: flex;
+	flex-wrap: wrap;
+}
+.title-block__element {
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.5;
+	color: #000000;
+	text-transform: uppercase;
+
+	flex: 0 0 62.166666667%;
+	
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	gap: 26px;
+}
+.title-block__element::after{
+	content: "";
+	display: inline-block;
+	height: 1px;
+	width: 38.6666666667%;
+	background-color: #000;
+	margin-left: 25px;
+	
+	flex: 0 0 53%;
+}
+/* ======================================= */
+.main__block-content {
+	margin-bottom: 100px;
+}
+.content-block {
+	display: flex;
+	flex-direction: column;
+	row-gap: 40px;
+}
+.item-content {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.item-content__picture{
+	flex: 62.166667%;/* 746/1200 */
+	overflow: hidden;
+}
+.item-content__image {
+	transition: transform 1.5s;
+}
+.item-content__image img{
+	max-width: 100%;
+}
+.item-content__image:hover{
+	transform: scale(1.05);
+}
+.item-content__solution {
+	flex: 0 0 37.833333%;
+}
+.solution {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	row-gap: 20px;
+	align-items: flex-start;
+	padding-left: 120px;
+	justify-content: center;
+}
+.solution__title {
+	font-weight: 600;
+	font-size: 24px;
+	line-height: 1.4;
+	color: #333333;
+}
+.solution__title-link{
+	transition: color 0.3s;
+	
+}
+.solution__title-link:hover{
+	color: rgba(209, 41, 41, 0.8);
+	
+}
+.solution__text {
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 1.6;
+	color: #9C9C9C;
+}
+/* =================================== */
+.portfolio-block__header {
+	color: #000;
+	margin-bottom: 53px;
+}
+
+.header-portfolio__items{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	align-items: center;
+	row-gap: 40px;
+}
+.header-portfolio__title {
+	font-weight: 700;
+	font-size: 56px;
+	line-height: 1.4;
+}
+.header-portfolio__subtitle {
+	font-size: 18px;
+	line-height: 1.6;
+	text-align: center;
+
+	flex-shrink: 1;
+	max-width: 525px;
+}
+.portfolio-block__fullscreen{
+	margin-bottom: 100px;
+}
+.portfolio-block__fullscreen-image img{
+	max-width: 100%;
+}
+/* ================================= */
+.portfolio-block__content {
+	margin-bottom: 80px;
+}
+.content-portfolio__items {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0px -16px;
+}
+.item-portfolio__column{
+	flex: 0 1 49.16666667%;
+	padding: 0px 16px; 
+}
+
+.item-portfolio {
+	display: flex;
+	flex-wrap: wrap;
+	row-gap: 24px;
+}
+.item-portfolio__text {
+	flex: 0 1 100%;
+	margin-bottom: 36px;
+}
+
+.item-portfolio__text p{
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 1.6;
+	color: #9C9C9C;
+}
+.item-portfolio__text p:not(:last-child){
+	margin-bottom: 30px;
+}
+.item-portfolio__footer {
+	font-size: 18px;
+	line-height: 1.6;
+	color: #9C9C9C;
+}
+.footer-item {
+	display: flex;
+}
+.footer-item__date {
+	margin-right: 80px;
+	transition: color 0.3s;
+}
+.footer-item__date:hover {
+	color: #000;
+	text-decoration: underline;
+}
+.footer-item__link {
+	transition: color 0.3s;
+}
+.footer-item__link:hover {
+	color: #000;
+	text-decoration: underline;
+}
+
+/* ================================================ */
+
+.portfolio-blok__gallery {
+	margin-bottom: 100px;
+}
+.gallery {
+}
+
+
+.gallery__items {
+	display: flex;
+	flex-wrap: wrap;
+	margin: 0 -16px;
+	row-gap: 32px;
+	
+
+}
+
+.gallery__column {
+	flex: 0 1 50%;
+	padding: 0 16px;
+	
+	
+}
+.gallery__column:nth-child(3n){
+	flex: 0 1 100%;
+} 
+.gallery__image{
+	overflow: hidden;
+}
+.gallery__image img{
+	max-width: 100%;
+	transition: transform 0.5s;
+}
+
+.gallery__image img:hover{
+	transform: scale(1.05);
+}
