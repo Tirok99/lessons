@@ -131,23 +131,14 @@ h3{
 	margin-bottom: 53px;
 }
 .header-portfolio__items{
-	/* display: flex;
-	flex-wrap: wrap;
-	flex-direction: column;
-	align-items: center;
-	row-gap: 40px; */
 	text-align: center;
-}
-
-.header-portfolio__items p{
-	
 }
 
 .header-portfolio__title {
 	font-weight: 700;
 	font-size: 56px;
 	line-height: 1.4;
-	
+	margin-bottom: 60px;
 }
 .header-portfolio__subtitle {
 	padding: 0px 365px;
