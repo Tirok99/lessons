@@ -418,7 +418,7 @@ margin-right: 45px;
 	content: "";
 	position: absolute;
 	right: 25px;
-	top: 50%;
+	top: 45%;
 	background: url(../img/icons/union.svg) no-repeat;
 	z-index: 1;
 	width: 16px;
@@ -443,7 +443,7 @@ margin-right: 45px;
 	width: 100px;
 	height: 40px;
 	line-height: 2.5;
-	top: 5%;
+	top: 13%;
 	left: 38px;
 	z-index: 1;
 }
@@ -688,29 +688,15 @@ margin-right: 45px;
 	z-index: 2;
 }
 .form-contact__list{
-	appearance: none;
-}
-.form-contact__holder-label{
-	position: absolute;
-	width: 380px;
-	height: 20px;
-	z-index: 1;
-	top: 30%;
-	left: 28%;
+	font-family: 'Roboto';
+	font-style: normal;
+	font-weight: 400;
 	font-size: 16px;
 	line-height: 1.25;
 	color: #3F3F3F;
+	appearance: none;
+}
 
-	overflow: hidden;
-
-}
-.form-contact__list:valid+.form-contact__holder-label {
-	visibility: hidden;
-}
-/* ========================================= */
-.block-shipping__method-form{
-	
-}
 .form-method__block-element{
 	border: 0.5px solid #C4C4C4;
 }
