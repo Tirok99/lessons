@@ -406,7 +406,7 @@ margin-right: 45px;
 .form-billing__input,
 .form-billing__list{
 	width: 336px;
-	padding: 6px 5px 6px 25px;
+	padding: 6px 25px;
 }
 /* =========================================== */
 .form-billing__item_select{
@@ -573,7 +573,7 @@ margin-right: 45px;
 
 .form-address__input,
 .form-contact__input{
-	padding: 11px 11px 11px 24px;
+	padding: 11px 24px;
 	line-height: 1.25;
 	cursor: pointer;
 	border: 1px solid #C4C4C4;
@@ -733,6 +733,8 @@ margin-right: 45px;
 .form-method__item {
 	position: relative;
 	z-index: 0;
+
+	flex: 0 1 80px;
 }
 .item-radio__input {
 	top: 0;
@@ -743,7 +745,7 @@ margin-right: 45px;
 }
 .item-radio__label {
 	display: inline-block;
-	padding: 12px 1px 12px 24px;
+	padding: 12px;
 	cursor: pointer;
 }
 .item-radio__label::after{
@@ -758,10 +760,12 @@ margin-right: 45px;
 	z-index: 1;
 }
 .form-method__option{
-	padding: 12px 1px;
+	padding: 12px;
+	flex: 0 1 100px;
 }
 .form-method__option-rate {
-	padding: 12px 1px;
+	padding: 12px;
+	flex-grow: 0;
 }
 .form-method__block-element_width{
 	width: 443px;
