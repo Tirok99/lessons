@@ -405,7 +405,7 @@ margin-right: 45px;
 }
 .form-billing__input,
 .form-billing__list{
-	width: 336px;
+	width: 100%;
 	padding: 6px 25px;
 }
 /* =========================================== */
