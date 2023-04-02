@@ -158,196 +158,197 @@
 					<div class="block-page__title-block block-title">
 						<h2 class="block-title__title">Checkout</h2>
 						<div class="block-title__subtitle">There are 3 products in your cart</div>
+					</div>
+				</div>
+				<form class="block-page__main-form" action="https://jsonplaceholder.typicode.com/posts" method="get" target="_blank" enctype="multipart/form-data">
+					<div class="block-page__billing billing-block">
+						<h3 class="billing-block__title">Billing Details</h3>
+						<div class="billing-block__form form-billing">
+							<div class="form-billing__items">
+								<div class="form-billing__item">
+									<input required type="text" class="form-billing__input" name="first-name" value="" placeholder="First Name*" autocomplete="on">
+								</div>
+								<div class="form-billing__item">
+									<input required type="text" class="form-billing__input" name="last-name" value="" placeholder="Last Name*" autocomplete="on">
+								</div>
+								<div class="form-billing__item">
+									<input required type="text" class="form-billing__input" name="address-main" value="" placeholder="Address*" autocomplete="on">
+								</div>
+								<div class="form-billing__item">
+									<input type="text" class="form-billing__input" name="address-line" value="" placeholder="Address line 2" autocomplete="off">
+								</div>
+								<div class="form-billing__item form-billing__item_select">
+									<select required id="list-01" class="form-billing__list" name="country">
+										<option class="form-billing__list-option" value="default">Country*</option>
+										<option class="form-billing__list-option" value="Ukraine">Ukraine</option>
+										<option class="form-billing__list-option" value="Germany">Germany</option>
+										<option class="form-billing__list-option" value="France">France</option>
+										<option class="form-billing__list-option" value="Turkey">Turkey</option>
+									</select>
+									<!-- <label class="form-billing__label" for="list-01">Country*</label> -->
+								</div>
+								<div class="form-billing__item">
+									<input required type="text" class="form-billing__input" name="city" value="" placeholder="City/Town*" autocomplete="on">
+								</div>
+								<div class="form-billing__item">
+									<input required type="text" class="form-billing__input" name="zip-01" value="" placeholder="Postcode / ZIP*" autocomplete="on">
+								</div>
+								<div class="form-billing__item">
+									<input required type="tel" class="form-billing__input" name="phone-01" value="" placeholder="Phone*" autocomplete="on">
+								</div>
+								<div class="form-billing__item">
+									<input type="text" class="form-billing__input" name="zip-02" value="" placeholder="Postcode / ZIP*" autocomplete="on">
+								</div>
+								<div class="form-billing__item">
+									<input type="tel" class="form-billing__input" name="phone-02" value="" placeholder="Phone*" autocomplete="on">
+								</div>
+								<div class="form-billing__item">
+									<textarea class="form-billing__area" placeholder="Additional information" autocomplete="off" name="textarea"></textarea>
+								</div>
+							</div>
+							<div class="form-billing__list-checkbox checkbox-list">
+								<div class="checkbox-list__item">
+									<input id="checkbox-05" class="checkbox-list__input" name="account-option" value="" type="checkbox">
+									<label class="checkbox-list__label" for="checkbox-05">Create Account</label>
+								</div>
+								<div class="checkbox-list__item">
+									<input id="checkbox-06" class="checkbox-list__input" name="account-option" value="" type="checkbox">
+									<label class="checkbox-list__label" for="checkbox-06">Ship to a different address?</label>
+								</div>
+							</div>
 						</div>
 					</div>
-					<form class="block-page__main-form" action="https://jsonplaceholder.typicode.com/posts" method="get" target="_blank" enctype="multipart/form-data">
-						<div class="block-page__billing billing-block">
-							<h3 class="billing-block__title">Billing Details</h3>
-							<div class="billing-block__form form-billing">
-								<div class="form-billing__items">
-									<div class="form-billing__item">
-										<input required type="text" class="form-billing__input" name="first-name" value="" placeholder="First Name*" autocomplete="on">
-									</div>
-									<div class="form-billing__item">
-										<input required type="text" class="form-billing__input" name="last-name" value="" placeholder="Last Name*" autocomplete="on">
-									</div>
-									<div class="form-billing__item">
-										<input required type="text" class="form-billing__input" name="address-main" value="" placeholder="Address*" autocomplete="on">
-									</div>
-									<div class="form-billing__item">
-										<input type="text" class="form-billing__input" name="address-line" value="" placeholder="Address line 2" autocomplete="off">
-									</div>
-									<div class="form-billing__item form-billing__item_select">
-										<select required id="list-01" class="form-billing__list" name="country">
-											<option class="form-billing__list-option" value=""></option>
-											<option class="form-billing__list-option" value="Ukraine">Ukraine</option>
-											<option class="form-billing__list-option" value="Germany">Germany</option>
-											<option class="form-billing__list-option" value="France">France</option>
-											<option class="form-billing__list-option" value="Turkey">Turkey</option>
-										</select>
-										<label class="form-billing__label" for="list-01">Country*</label>
-									</div>
-									<div class="form-billing__item">
-										<input required type="text" class="form-billing__input" name="city" value="" placeholder="City/Town*" autocomplete="on">
-									</div>
-									<div class="form-billing__item">
-										<input required type="text" class="form-billing__input" name="zip-01" value="" placeholder="Postcode / ZIP*" autocomplete="on">
-									</div>
-									<div class="form-billing__item">
-										<input required type="tel" class="form-billing__input" name="phone-01" value="" placeholder="Phone*" autocomplete="on">
-									</div>
-									<div class="form-billing__item">
-										<input type="text" class="form-billing__input" name="zip-02" value="" placeholder="Postcode / ZIP*" autocomplete="on">
-									</div>
-									<div class="form-billing__item">
-										<input type="tel" class="form-billing__input" name="phone-02" value="" placeholder="Phone*" autocomplete="on">
-									</div>
-									<div class="form-billing__item">
-										<textarea class="form-billing__area" placeholder="Additional information" autocomplete="off" name="textarea"></textarea>
-									</div>
-								</div>
-								<div class="form-billing__list-checkbox checkbox-list">
-									<div class="checkbox-list__item">
-										<input id="checkbox-05" class="checkbox-list__input" name="account-option" value="" type="checkbox">
-										<label class="checkbox-list__label" for="checkbox-05">Create Account</label>
-									</div>
-									<div class="checkbox-list__item">
-										<input id="checkbox-06" class="checkbox-list__input" name="account-option" value="" type="checkbox">
-										<label class="checkbox-list__label" for="checkbox-06">Ship to a different address?</label>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="block-page__coupon coupon-block">
-							<h3 class="coupon-block__tille">Apply Coupon to get discount!
-							</h3>
-							<div class="coupon-block__item">
-								<input type="text" class="coupon-block__input" placeholder="Coupon code" name="coupon-num">
-								<div class="coupon-block__button">
-									<button class="coupon-block__button-element" type="button">Apply Code
-									</button>
-								</div>
-							</div>
-						</div>
-					</form>
-				</div>
-			</div>
-		</div>
-		<div class="shipping-page">
-			<div class="shipping-page__container">
-				<div class="shipping-page__block block-shipping">
-					<div class="block-shipping__address-form form-address">
-						<h4 class="form-address__title">Shipping Address</h4>
-						<form class="form-address__tag" action="https://jsonplaceholder.typicode.com/posts" method="post" target="_blank">
-							<div class="form-address__items">
-								<div class="form-address__item item">
-									<label class="item__label item__label_element" for="email-11">Email Address</label>
-									<input required type="email" class="item__input" name="email-11" value="" placeholder="roni_cost@example.com" autocomplete="on" id="email-11">
-								</div>
-								<div class="form-address__item item">
-									<label class="item__label" for="password-11">Password</label>
-									<input required type="password" class="item__input" name="password" value="" autocomplete="on" id="password-11">
-								</div>
-								<div class="form-address__item item">
-									<label class="item__label" for="zip-11">Zip/Postal Code</label>
-									<input type="text" class="item__input" name="zip-code" value="" autocomplete="on" id="zip-11">
-								</div>
-							</div>
-							<div class="form-address__sign">
-								<p>You already have an account with us.
-									<a class="form-address__sign-link" href="#"> Sign in</a> or continue as guest.
-								</p>
-							</div>
-							<div class="form-address__button button">
-								<button class="button__body" type="submit">Login
+					<div class="block-page__coupon coupon-block">
+						<h3 class="coupon-block__tille">Apply Coupon to get discount!
+						</h3>
+						<div class="coupon-block__item">
+							<input type="text" class="coupon-block__input" placeholder="Coupon code" name="coupon-num">
+							<div class="coupon-block__button">
+								<button class="coupon-block__button-element" type="button">Apply Code
 								</button>
 							</div>
-							<div class="form-address__password">
-								<a class="form-address__password-link" href="#">Forgot Your Password?</a>
-							</div>
-						</form>
+						</div>
 					</div>
-					<div class="block-shipping__block-element"></div>
-					<form class="block-shipping__tag" action="https://jsonplaceholder.typicode.com/posts" method="post" target="_blank">
-						<div class="block-shipping__contact-form form-contact">
-							<div class="form-contact__items">
-								<div class="form-contact__item item">
-									<label class="item__label item__label_element" for="name-11">First Name</label>
-									<input required type="text" class="item__input" name="username" value="" placeholder="" autocomplete="on" id="name-11">
-								</div>
-								<div class="form-contact__item item">
-									<label class="item__label item__label_element" for="last-name-11">Last Name</label>
-									<input required type="text" class="item__input" name="second-name" value="" placeholder="" autocomplete="on" id="last-name-11">
-								</div>
-								<div class="form-contact__item item">
-									<label class="item__label" for="company-11">Company</label>
-									<input type="text" class="item__input" name="company" value="" placeholder="" autocomplete="on" id="company-11">
-								</div>
-								<div class="form-contact__item  item item_margin">
-									<label class="item__label item__label_element" for="address-11">Street Address</label>
-									<input required type="text" class="item__input" name="address" value="" placeholder="" autocomplete="on" id="address-11">
-								</div>
-								<div class="form-contact__item  item item_margin">
-									<label class="item__label" for="address-12"></label>
-									<input type="text" class="item__input" name="more-address" value="" placeholder="" autocomplete="on" id="address-12">
-								</div>
-								<div class="form-contact__item item">
-									<label class="item__label" for="address-13"></label>
-									<input type="text" class="item__input" name="more-address" value="" placeholder="" autocomplete="on" id="address-13">
-								</div>
-								<div class="form-contact__item item">
-									<label class="item__label item__label_element" for="country-11">Country</label>
-									<input required type="text" class="item__input" name="country" value="" placeholder="" autocomplete="on" id="country-11">
-								</div>
-								<div class="form-contact__item item item_select">
-									<label class="item__label item__label_element" for="state-11">State/Province</label>
-									<select required id="state-11" class="item__list" name="province">
-										<option value="">Please select a region, state or province</option>
-										<option class="item__list-option" value="2">State 1</option>
-										<option class="item__list-option" value="3"> State 2</option>
-										<option class="item__list-option" value="4">State 3</option>
-									</select>
-									<!-- <label class="form-contact__holder-label" for="state-11">Please select a region, state or province</label> -->
-								</div>
+				</form>
+			</div>
+		</div>
+	</div>
+	<div class="shipping-page">
+		<div class="shipping-page__container">
+			<div class="shipping-page__block block-shipping">
+				<div class="block-shipping__address-form form-address">
+					<h4 class="form-address__title">Shipping Address</h4>
+					<form class="form-address__tag" action="https://jsonplaceholder.typicode.com/posts" method="post" target="_blank">
+						<div class="form-address__items">
+							<div class="form-address__item item">
+								<label class="item__label item__label_element" for="email-11">Email Address</label>
+								<input required type="email" class="item__input" name="email-11" value="" placeholder="roni_cost@example.com" autocomplete="on" id="email-11">
+							</div>
+							<div class="form-address__item item">
+								<label class="item__label" for="password-11">Password</label>
+								<input required type="password" class="item__input" name="password" value="" autocomplete="on" id="password-11">
+							</div>
+							<div class="form-address__item item">
+								<label class="item__label" for="zip-11">Zip/Postal Code</label>
+								<input type="text" class="item__input" name="zip-code" value="" autocomplete="on" id="zip-11">
 							</div>
 						</div>
-						<div class="block-shipping__method-form form-method">
-							<h4 class="form-method__title">Shipping Method</h4>
-							<div class="form-method__block-element"></div>
-							<div class="form-method__radio-items">
-								<div class="form-method__item item-radio">
-									<input class="item-radio__input" id="radio-11" name="option-11" value="$5.00" type="radio">
-									<label class="item-radio__label" for="radio-11">$5.00</label>
-								</div>
-								<div class="form-method__option">Fixed</div>
-								<div class="form-method__option-rate">Flat Rate</div>
-							</div>
-							<div class="form-method__block-element form-method__block-element_width"></div>
-							<div class="form-method__radio-items form-method__radio-items_margin">
-								<div class="form-method__item item-radio">
-									<input class="item-radio__input" id="radio-12" name="option-11" value="$10.00" type="radio">
-									<label class="item-radio__label" for="radio-12">$10.00</label>
-								</div>
-								<div class="form-method__option">Table Rate</div>
-								<div class="form-method__option-rate">Best Way</div>
-							</div>
-							<div class="form-method__active">
-								<div class="form-method__button button">
-									<button class="button__body" type="submit">Next
-									</button>
-								</div>
-								<div class="form-method__beck-button">
-									<a href="#" class="form-method__beck-item">Back
-									</a>
-								</div>
-							</div>
+						<div class="form-address__sign">
+							<p>You already have an account with us.
+								<a class="form-address__sign-link" href="#"> Sign in</a> or continue as guest.
+							</p>
+						</div>
+						<div class="form-address__button button">
+							<button class="button__body" type="submit">Login
+							</button>
+						</div>
+						<div class="form-address__password">
+							<a class="form-address__password-link" href="#">Forgot Your Password?</a>
 						</div>
 					</form>
 				</div>
+				<div class="block-shipping__block-element"></div>
+				<form class="block-shipping__tag" action="https://jsonplaceholder.typicode.com/posts" method="post" target="_blank">
+					<div class="block-shipping__contact-form form-contact">
+						<div class="form-contact__items">
+							<div class="form-contact__item item">
+								<label class="item__label item__label_element" for="name-11">First Name</label>
+								<input required type="text" class="item__input" name="username" value="" placeholder="" autocomplete="on" id="name-11">
+							</div>
+							<div class="form-contact__item item">
+								<label class="item__label item__label_element" for="last-name-11">Last Name</label>
+								<input required type="text" class="item__input" name="second-name" value="" placeholder="" autocomplete="on" id="last-name-11">
+							</div>
+							<div class="form-contact__item item">
+								<label class="item__label" for="company-11">Company</label>
+								<input type="text" class="item__input" name="company" value="" placeholder="" autocomplete="on" id="company-11">
+							</div>
+							<div class="form-contact__item  item item_margin">
+								<label class="item__label item__label_element" for="address-11">Street Address</label>
+								<input required type="text" class="item__input" name="address" value="" placeholder="" autocomplete="on" id="address-11">
+							</div>
+							<div class="form-contact__item  item item_margin">
+								<label class="item__label" for="address-12"></label>
+								<input type="text" class="item__input" name="more-address" value="" placeholder="" autocomplete="on" id="address-12">
+							</div>
+							<div class="form-contact__item item">
+								<label class="item__label" for="address-13"></label>
+								<input type="text" class="item__input" name="more-address" value="" placeholder="" autocomplete="on" id="address-13">
+							</div>
+							<div class="form-contact__item item">
+								<label class="item__label item__label_element" for="country-11">Country</label>
+								<input required type="text" class="item__input" name="country" value="" placeholder="" autocomplete="on" id="country-11">
+							</div>
+							<div class="form-contact__item item item_select">
+								<label class="item__label item__label_element" for="state-11">State/Province</label>
+								<select required id="state-11" class="item__list" name="province">
+									<option value="default">Please select a region, state or province</option>
+									<option class="item__list-option" value="2">State 1</option>
+									<option class="item__list-option" value="3"> State 2</option>
+									<option class="item__list-option" value="4">State 3</option>
+								</select>
+								<!-- <label class="form-contact__holder-label" for="state-11">Please select a region, state or province</label> -->
+							</div>
+						</div>
+					</div>
+					<div class="block-shipping__method-form form-method">
+						<h4 class="form-method__title">Shipping Method</h4>
+						<div class="form-method__block-element"></div>
+						<div class="form-method__radio-items">
+							<div class="form-method__item item-radio">
+								<input class="item-radio__input" id="radio-11" name="option-11" value="$5.00" type="radio">
+								<label class="item-radio__label" for="radio-11">$5.00</label>
+							</div>
+							<div class="form-method__option">Fixed</div>
+							<div class="form-method__option-rate">Flat Rate</div>
+						</div>
+						<div class="form-method__block-element form-method__block-element_width"></div>
+						<div class="form-method__radio-items form-method__radio-items_margin">
+							<div class="form-method__item item-radio">
+								<input class="item-radio__input" id="radio-12" name="option-11" value="$10.00" type="radio">
+								<label class="item-radio__label" for="radio-12">$10.00</label>
+							</div>
+							<div class="form-method__option">Table Rate</div>
+							<div class="form-method__option-rate">Best Way</div>
+						</div>
+					</div>
+					<div class="form-method__active">
+						<div class="form-method__button button">
+							<button class="button__body" type="submit">Next
+							</button>
+						</div>
+						<div class="form-method__beck-button">
+							<a href="#" class="form-method__beck-item">Back
+							</a>
+						</div>
+					</div>
 			</div>
+			</form>
 		</div>
+	</div>
+	</div>
 
-		<footer></footer>
+	<footer></footer>
 	</div>
 </body>
 
