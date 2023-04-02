@@ -456,8 +456,12 @@ main{
 	cursor: pointer;
 	border: 1px solid rgba(24, 23, 23, 0.3);
 	border-radius: 7px;
+}
+.form-billing__input,
+.form-billing__list{
 	padding: 6px 25px;
 }
+	
 .form-billing__input:focus,
 .form-billing__list:focus,
 .form-billing__area:focus{
@@ -512,7 +516,7 @@ main{
 	visibility: hidden;
 }
 .form-billing__area{
-	padding: 5px 5px 5px 25px;
+	padding: 25px;
 	width: 100%;
 	min-height: 180px;
 	resize: none;
