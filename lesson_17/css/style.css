@@ -456,12 +456,15 @@ main{
 	cursor: pointer;
 	border: 1px solid rgba(24, 23, 23, 0.3);
 	border-radius: 7px;
+	
 }
+
 .form-billing__input,
 .form-billing__list{
 	padding: 6px 25px;
 }
-	
+
+
 .form-billing__input:focus,
 .form-billing__list:focus,
 .form-billing__area:focus{
@@ -504,17 +507,11 @@ main{
 }
 
 .form-billing__label{
-	position: absolute;
-	width: 100px;
-	height: 40px;
+	font-size: 16px;
 	line-height: 2.5;
-	top: 13%;
-	left: 38px;
-	z-index: 1;
+	color: #637381;
 }
-.form-billing__list:valid+.form-billing__label {
-	visibility: hidden;
-}
+
 .form-billing__area{
 	padding: 25px;
 	width: 100%;
