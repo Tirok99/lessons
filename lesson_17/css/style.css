@@ -126,9 +126,7 @@ main{
 .item-content__image img{
 	max-width: 100%;
 }
-.item-content__image:hover{
-	transform: scale(1.05);
-}
+
 .item-content__solution {
 	flex: 0 0 37.833333%;
 }
@@ -149,9 +147,7 @@ main{
 .solution__title-link{
 	transition: color 0.3s;
 }
-.solution__title-link:hover{
-	color: rgba(209, 41, 41, 0.8);
-}
+
 .solution__text {
 	font-weight: 400;
 	font-size: 18px;
@@ -162,6 +158,16 @@ main{
 .solution__text p:not(:last-child){
 	margin-bottom: 20px;
 }
+
+@media (any-hover: hover){
+	.item-content__image:hover{
+		transform: scale(1.05);
+	}
+	.solution__title-link:hover{
+		color: rgba(209, 41, 41, 0.8);
+	}
+}
+
 @media(max-width:890px){
 	.solution {
 		padding-left: 60px;
@@ -285,16 +291,17 @@ main{
 	margin-right: 80px;
 	transition: color 0.3s;
 }
-.footer-item__date:hover {
-	color: #000;
-	text-decoration: underline;
-}
 .footer-item__link {
 	transition: color 0.3s;
 }
-.footer-item__link:hover {
-	color: #000;
-	text-decoration: underline;
+
+@media (any-hover: hover){
+	
+	.footer-item__link:hover,
+	.footer-item__date:hover {
+		color: #000;
+		text-decoration: underline;
+	}
 }
 
 @media(max-width:767.98px){
@@ -360,9 +367,14 @@ main{
 	transition: transform 0.5s;
 }
 
-.gallery__image img:hover{
-	transform: scale(1.05);
+
+@media (any-hover: hover){
+	.gallery__image img:hover{
+		transform: scale(1.05);
+	}
+	
 }
+
 @media(max-width:767.98px){
 	.gallery__items {
 		margin: 0 -8px;
@@ -542,9 +554,7 @@ main{
 .checkbox-list__item:not(:last-child){
 	margin-bottom: 25px;
 }
-.checkbox-list__item:hover .checkbox-list__label {
-	color: rgba(0, 0, 0, 1);
-}
+
 .checkbox-list__input:checked+ .checkbox-list__label::before {
 	background: url(../img/icons/arrow-blue.svg) center no-repeat;
 }
@@ -600,10 +610,17 @@ main{
 
 	transition: color 0.5s, background-color 1.3s;
 }
-.coupon-block__button:hover .coupon-block__button-element{
-	background-color: #3056D3;
-	color: #000;
+
+@media (any-hover: hover){
+	.checkbox-list__item:hover .checkbox-list__label {
+		color: rgba(0, 0, 0, 1);
+	}
+	.coupon-block__button:hover .coupon-block__button-element{
+		background-color: #3056D3;
+		color: #000;
+	}
 }
+
 @media(max-width:491px){
 	.coupon-block__input{
 		flex: 0 1 100%;
@@ -682,9 +699,7 @@ h4 {
 	flex-grow: 1;
 	transition: border 0.5s;
 }
-.item__input:hover{
-	border: 1px solid #ff0000;
-}
+
 .item__label{
 	flex: 0 0 20.462046%;
 	min-width: 124px;
@@ -703,9 +718,7 @@ h4 {
 	padding: 10px 0px;
 	max-width: 520px;
 }
-.form-address__sign:hover .form-address__sign-link{
-	text-decoration: underline;
-}
+
 .form-address__button{
 	display: inline-block;
 	margin-right: 25px;
@@ -723,9 +736,7 @@ h4 {
 	padding: 14.5px 42px;
 	transition: background-color 0.5s;
 }
-.form-address__button:hover .button__body{
-	background-color: #fa0101;
-}
+
 .form-address__password {
 	display: inline-block;
 	max-width: 145px;
@@ -743,7 +754,19 @@ h4 {
 	text-shadow: 0 0 0.5px #0f6db1;
 	text-decoration: underline;
 }
+@media (any-hover: hover){
+	.item__input:hover{
+		border: 1px solid #ff0000;
+	}
+	.form-address__sign:hover .form-address__sign-link{
+		text-decoration: underline;
+	}
+	.form-address__button:hover .button__body,
+	.form-method__button:hover .button__body{
+		background-color: #fa0101;
+	}
 
+}
 @media(max-width:523px){
 	.item{
 		row-gap: 15px;
@@ -798,8 +821,11 @@ h4 {
 
 	flex-grow: 1;
 }
-.item__list:hover{
-	border: 1px solid #ff0000;
+
+@media (any-hover: hover){
+	.item__list:hover{
+		border: 1px solid #ff0000;
+	}
 }
 @media(max-width:479.91px){
 	.block-shipping__address-form{
@@ -901,8 +927,11 @@ h4 {
 
 	transition: color 0.3s;
 }
-.form-method__beck-button:hover .form-method__beck-item{
-color: #000;
+
+@media (any-hover: hover){
+	.form-method__beck-button:hover .form-method__beck-item{
+		color: #000;
+		}
 }
 @media(max-width:479.91px){
 	.form-method__block-element_width{
