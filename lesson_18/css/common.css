@@ -4,7 +4,7 @@
 	font-size: 25px;
 	line-height: 160%; /* 40/25 */
 
-	transition: color 0.3s;
+	transition: color 0.5s;
 }
 .title_white {
 	color:#F8F9FA;
@@ -12,7 +12,6 @@
 .title_black{
 	color: #212529;
 }
-
 .text {
 	font-weight: 300;
 	font-size: 12px;
@@ -20,16 +19,12 @@
 
 	
 }
-
 .text_white{
 	color: #E5E5E5;
 }
 
-/* ------------------- */
 
 
-.title_medium {
-	font-weight: 500;
-}
+
 
 

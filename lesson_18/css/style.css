@@ -312,8 +312,6 @@ body {
 .page__main{
 	margin-bottom: 100px;
 }
-.main{
-}
 .main__container {
 	position: relative;
 	padding-top: 192px;
@@ -323,9 +321,7 @@ body {
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	
 }
-
 .main__body {
 	display: flex;
 	flex-direction: column;
@@ -343,9 +339,6 @@ body {
 	height: 100%;
 	top: 0;
 	left: 0;
-
-	
-	
 }
 .main__background img{
 	position: absolute;
@@ -354,8 +347,6 @@ body {
 	top: 0;
 	left: 0;
 	object-fit: cover;
-
-	
 }
 
 @media (max-width: 767.98px) {
