@@ -481,7 +481,7 @@ body {
 	color: #212529;
 }
 .item-topic__title-link {
-	transition: color 0.3s;
+	transition: color 0.5s
 }
 .item-topic__text{
 	transition: color 0.3s;
@@ -509,7 +509,7 @@ body {
 		color:#CCD5AE;
 	}
 	.menu-topics__item:hover .menu-topics__link{
-		text-shadow: 0.5px solid #212529;
+		text-shadow:  0px 0px 0.5px #212529;
 	}
 	.item-topic__date:hover,
 	.item-topic__text:hover,
