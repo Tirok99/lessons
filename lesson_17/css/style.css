@@ -360,13 +360,23 @@ main{
 	flex: 0 1 100%;
 } 
 .gallery__image{
+	position: relative;
+	display: block;
 	overflow: hidden;
+	padding-bottom: 87.842466%; /* 513/584 */
 }
+.gallery__image_padding{
+	padding-bottom: 42.75%; /* 513/1200 */
+} 
 .gallery__image img{
-	max-width: 100%;
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	top: 0;
+	left: 0;
+	object-fit: cover;
 	transition: transform 0.5s;
 }
-
 
 @media (any-hover: hover){
 	.gallery__image img:hover{
