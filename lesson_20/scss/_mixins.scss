@@ -1,0 +1,8 @@
+// Микин флекса
+@mixin flex ($justify, $align, $gap, $wrap) {
+	display: flex;
+	justify-content: $justify;
+	align-items: $align;
+	gap: $gap;
+	flex-wrap: $wrap;
+}
