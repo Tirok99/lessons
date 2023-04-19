@@ -322,6 +322,7 @@ body{
 			@media(max-width: 767.98px){
 				.body-category__subtitle{
 					max-width: 200px;
+					font-size: 20px;
 				}
 			}
 			@media(max-width: 504px){
@@ -405,7 +406,9 @@ body{
 		line-height: 1.29; /* 62/48 */
 		text-transform: uppercase;
 		max-width: 225px;
-
+		&:not(:last-child){
+			margin-bottom: 17px;
+		}
 		@media(max-width: 767.98px){
 			font-size: 40px;				
 		}
@@ -429,7 +432,7 @@ body{
 			}
 		}
 		@media(max-width: 767.98px){
-			font-style: 20px;
+			font-size: 20px;
 			&:not(:last-child){
 				margin-bottom: 20px;
 			}
@@ -556,7 +559,6 @@ body{
 	// .category-shop__label
 	&__label {
 		font-family: 'Roboto';
-		font-style: normal;
 		font-weight: 400;
 		font-size: 14px;
 		line-height: 1.5725; /* 68/14 */
